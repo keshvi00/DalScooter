@@ -1,0 +1,14 @@
+frontend/node_modules
+frontend/.git
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/zip/
+frontend/package-lock.json
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate.backup
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+frontend/build/
+DALScooterAssistanceConfig/.terraform.lock.hcl
+DALScooterAssistanceConfig/.terraform/

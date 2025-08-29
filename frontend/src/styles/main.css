@@ -1,0 +1,68 @@
+.gradient-bg {
+    background: linear-gradient(135deg, #667eea 0%, #236CCC 100%);
+}
+.gradient-text {
+    background: linear-gradient(135deg, #667eea 0%, #236CCC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.btn-gradient {
+    background: linear-gradient(135deg, #667eea 0%, #236CCC 100%);
+    border: none;
+    transition: all 0.3s ease;
+}
+.btn-gradient:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+}
+.card-hover {
+    transition: all 0.3s ease;
+}
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+.icon-gradient {
+    background: linear-gradient(135deg, #667eea 0%, #236CCC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navbar-glass {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.hero-image {
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    position: relative;
+    overflow: hidden;
+}
+.hero-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
+}
+.feature-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+}
+.bg-blue-gradient {
+    background: linear-gradient(135deg, #4285f4 0%, #667eea 100%);
+}
+.bg-purple-gradient {
+    background: linear-gradient(135deg, #764ba2 0%, #236CCC 100%);
+}
+.bg-green-gradient {
+    background: linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%);
+}

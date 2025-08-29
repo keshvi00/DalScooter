@@ -1,0 +1,10 @@
+export const BIKE_API_URL = 'https://59vm24ctm3.execute-api.us-east-1.amazonaws.com';
+export const SIGNUP_API_URL = 'https://n7o1e2wfrd.execute-api.us-east-1.amazonaws.com/prod';
+export const CONFIRM_EMAIL_API_URL = 'https://60wz9rdy1i.execute-api.us-east-1.amazonaws.com/prod';
+export const API_BASE_URL = '';
+export const LOGIN_API_URL = 'https://2mrc58bp87.execute-api.us-east-1.amazonaws.com';
+export const FEEDBACK_API_URL = "https://me4ejjpy8e.execute-api.us-east-1.amazonaws.com";
+export const BIKE_BOOK_API_URL = 'https://6vzvewiz5e.execute-api.us-east-1.amazonaws.com';
+export const FEEDBACK_TEXT_API_URL = 'https://g0b9srhh78.execute-api.us-east-1.amazonaws.com';
+export const USER_STATS_API_URL  = 'https://e7kvjt6p30.execute-api.us-east-1.amazonaws.com';
+export const CHAT_API_URL = 'https://uzpyuf2uil.execute-api.us-east-1.amazonaws.com/';

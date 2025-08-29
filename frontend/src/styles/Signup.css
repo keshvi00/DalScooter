@@ -1,0 +1,151 @@
+.signup-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.signup-form {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+}
+
+.signup-title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.signup-field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.signup-icon {
+  position: absolute;
+  left: 10px;
+  color: #888;
+}
+
+.signup-input {
+  padding: 10px 10px 10px 35px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.signup-toggle {
+  position: absolute;
+  right: 10px;
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.signup-button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  font-weight: bold;
+}
+
+.signup-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(102, 126, 234, 0.35);
+  opacity: 0.95;
+  transition: all 0.3s ease;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: none;
+  border: none;
+  color: #764ba2;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.signup-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  margin-bottom: 25px;
+}
+
+.signup-logo {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.signup-logo-text {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.signup-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.2;     
+  margin: 0; 
+  
+}
+
+.caesar-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.caesar-label {
+  font-weight: 600;
+  color: #333;
+}
+
+.hint-text {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  background-color: #f5f5f5;
+  padding: 10px 12px;
+  border-left: 4px solid #667eea;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.signup-field.vertical {
+  flex-direction: column;
+  align-items: stretch;
+}
+
